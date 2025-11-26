@@ -1,11 +1,77 @@
-/* 
+.wrapper {
+  text-align: center;
+  margin-top: 30px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.counter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
 
-*/
+.cuadros-contador {
+    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+  width: 90px;
+  height: 110px;
+  margin: 6px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 6px rgba(14, 14, 14, 0.4);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.boton1 {
+    display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background-color: #0617d3;
+  color: white;
+  border-radius: 6px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+
+.boton2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background-color: #06d30a;
+  color: white;
+  border-radius: 6px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+
+.boton1:hover {
+  background-color: #0b5ed7;
+}
+
+.boton2:hover {
+  background-color: #098809;
+}
+
+.boton-azul,
+.boton-verde {
+  outline: none;
+  border: none;
+}
+
+.boton-azul:focus,
+.boton-verde:focus {
+  outline: none;
+  box-shadow: none;
+}
